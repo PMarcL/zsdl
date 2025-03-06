@@ -1,5 +1,6 @@
 .{
-    .name = "zsdl",
+    .name = .zsdl,
+    .fingerprint = 0x36e4ca3d220790d8,
     .version = "0.4.0-dev",
     .paths = .{
         "build.zig",
@@ -16,9 +17,8 @@
             .lazy = true,
         },
         .@"sdl2-prebuilt-x86_64-windows-gnu" = .{
-            .url = "https://github.com/zig-gamedev/sdl2-prebuilt-x86_64-windows-gnu/archive/8143e2a5c28dbace399cbff14c3e8749a1afd418.tar.gz",
-            .hash = "1220ade6b84d06d73bf83cef22c73ec4abc21a6d50b9f48875f348b7942c80dde11b",
-            .lazy = true,
+          .url = "https://github.com/PMarcL/sdl2-prebuilt-x86_64-windows-gnu/archive/c9a91a696eec53bd4d5cafb4d05413534d385154.tar.gz",
+          .hash = "sdl2_prebuilt_x86_64_windows_gnu-0.1.0-AAAAANKVaQDTOaQ3-K_pL5ku-vxRtp-ub45MIpecOB0Z",
         },
         .@"sdl2-prebuilt-x86_64-linux-gnu" = .{
             .url = "https://github.com/zig-gamedev/sdl2-prebuilt-x86_64-linux-gnu/archive/2eccc574ad909b0d00b694b10c217a95145c47af.tar.gz",
@@ -31,9 +31,8 @@
             .lazy = true,
         },
         .@"sdl3-prebuilt-x86_64-windows-gnu" = .{
-            .url = "https://github.com/zig-gamedev/sdl3-prebuilt-x86_64-windows-gnu/archive/bd506c7cf80c4bb4876a169f77ecaa0f12824c5.tar.gz",
-            .hash = "122073ccc1be25223aed7eb9590e81eed67835901cd18ebf2314eb9cfe5bbef595cf",
-            .lazy = true,
+          .url = "https://github.com/PMarcL/sdl3-prebuilt-x86_64-windows-gnu/archive/c9aa473dcce9f0c7861f8baf02925593bcc97353.tar.gz",
+          .hash = "sdl3_prebuilt_x86_64_windows_gnu-0.1.0-AAAAAIvmJADE-xqi2Lmpxbo9wG5B13z77R0JFlQzTOdM",
         },
         .@"sdl3-prebuilt-x86_64-linux-gnu" = .{
             .url = "https://github.com/zig-gamedev/sdl3-prebuilt-x86_64-linux-gnu/archive/183871b80747c77cfd467555ac7921fc828438ee.tar.gz",
